@@ -1,5 +1,5 @@
 text = input("Enter your string: ")
-custom_key = input("Enter your key: ")
+custom_key = input("Enter your key: ")# Do not use numerics here
 
 def vigenere(message, key, direction=1):
     key_index = 0
